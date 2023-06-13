@@ -18,6 +18,8 @@ To detect the presence of pneumonia in CXR images, we train a Convolutional Neur
 
 
 ### Introduction to Mask-RCNN
+![image](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/9f3fc2b4-aa2b-4cf8-a0c7-aa22fd834aff)
+
 Mask-RCNN is a Region-Based Convolutional Neural Network used for object detection. It generates region proposals and extracts feature vectors for each region. The model consists of a classification branch, a bounding box regression branch, and an additional branch for predicting object masks.
 
 ### Training with Mask-RCNN
