@@ -14,6 +14,9 @@ Accurately diagnosing pneumonia is challenging due to various factors affecting 
 To detect the presence of pneumonia in CXR images, we train a Convolutional Neural Network (CNN) using labeled images. Two models, Mask-RCNN and YOLOv5, are chosen for this task. The Mask-RCNN model is built on top of Faster RCNN, while YOLOv5 is built on top of YOLOv4. The images are converted to JPG format, and each model is trained and evaluated to determine the better performing model.
 
 ## Project Workflow
+![image](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/69870b12-342c-4050-83bf-97a7b7e142ad)
+
+
 ### Introduction to Mask-RCNN
 Mask-RCNN is a Region-Based Convolutional Neural Network used for object detection. It generates region proposals and extracts feature vectors for each region. The model consists of a classification branch, a bounding box regression branch, and an additional branch for predicting object masks.
 
