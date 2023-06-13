@@ -22,6 +22,14 @@ To detect the presence of pneumonia in CXR images, we train a Convolutional Neur
 
 Mask-RCNN is a Region-Based Convolutional Neural Network used for object detection. It generates region proposals and extracts feature vectors for each region. The model consists of a classification branch, a bounding box regression branch, and an additional branch for predicting object masks.
 
+
+### Introduction to YOLOv5
+![image](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/081ae043-7c96-485b-a3e4-14e3fe47835f)
+
+YOLO (You Only Look Once) is a real-time object detection system. YOLOv5, implemented in PyTorch, is the latest iteration of the YOLO series. It adopts a different approach compared to Mask-RCNN by dividing the input image into a grid and predicting bounding boxes and class probabilities directly. YOLOv5 includes different model sizes (YOLOv5s, YOLOv5m, YOLOv5l, YOLOv5x) that offer a trade-off between speed and accuracy.
+
+We compare the performance of both Mask-RCNN and YOLOv5 models in pneumonia detection using our labeled CXR dataset. The images are preprocessed and formatted for training with each model.
+
 ### Training with Mask-RCNN
 The Mask-RCNN model is trained using the Matterport's Mask-RCNN implementation and COCO pre-trained weights. The training process involves formatting the DICOM images to JPG, annotating them, splitting the data into training and validation sets, and monitoring the train and validation loss.
 
@@ -32,5 +40,10 @@ YOLOv5, implemented in PyTorch, is another model used for object detection. It i
 The results show that Mask-RCNN achieves better performance compared to YOLOv5. The mAP (mean Average Precision) of Mask-RCNN is 98.15, while YOLOv5 achieves an mAP of 57.5. The training and validation performance for both models is visualized and presented.
 
 ## Conclusion
-Based on the evaluation, we conclude that Mask-RCNN outperforms YOLOv5 in terms of pneumonia detection in CXR images. The project demonstrates the effectiveness of pretrained models and their potential for accurate diagnosis. Further improvements and research can be conducted to enhance the performance and
+In this project, we explored the application of Mask-RCNN and YOLOv5 models for pneumonia detection in chest X-ray images. The results indicate that Mask-RCNN outperforms YOLOv5 in terms of accuracy, achieving an mAP of 98.15. This project provides insights into the use of deep learning models for medical image analysis and opens avenues for further research to improve pneumonia detection algorithms.
+
+## References
+1. Schweitzer, D., & Agrawal, R. (2018). Multi-Class Object Detection from Aerial Images Using Mask R-CNN. 2018 IEEE International Conference on Big Data (Big Data). [DOI:10.1109/bigdata.2018.8622536](https://doi.org/10.1109/bigdata.2018.8622536)
+2. [Armaanpriyadarshan/Training-a-Custom-TensorFlow-2.X](https://github.com/armaanpriyadarshan/Training-a-Custom-TensorFlow-2.X-Object-Detector)
+3. [YOLOv3-RSNA Starting Notebook | Kaggle](https://www.kaggle.com/seohyeondeok/yolov3-rsna-starting-notebook)
 
