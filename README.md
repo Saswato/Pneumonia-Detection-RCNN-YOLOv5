@@ -1,5 +1,9 @@
 # Pneumonia Detection in Chest X-Rays using RCNN and YOLOv5
 
+![xray](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/76c0a4e2-7029-4810-8081-25f1f6cca8a8)
+
+
+
 Saswato Bhattacharyya, Apurva Nehru, and Gaurav Thorat  
 College Of Engineering, Northeastern University  
 May 6, 2021
