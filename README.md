@@ -1,6 +1,7 @@
 # Pneumonia Detection in Chest X-Rays using RCNN and YOLOv5
 
-![xray](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/76c0a4e2-7029-4810-8081-25f1f6cca8a8)
+![xray](https://github.com/Saswato/Pneumonia-Detection-RCNN-YOLOv5/assets/67147010/7387f184-2d74-4ddf-9f01-c1a370ab4fc3)
+
 
 
 
